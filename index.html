@@ -11,31 +11,31 @@
     <link rel="icon" type="image/png" href="assets/images/Logos/FerLogoW-min.png">
     <title>Fernando De León</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="56">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/Logos/FernandoLogoWhite-min.png" width="30" height="30" class="d-inline-block align-top " alt="FernandoLogo.png" loading="lazy">
                 Fernando De León
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbar">
               <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item mx-sm-1">
-                  <a class="nav-link" href="#">Home</a>
+                <li class="nav-item mx-sm-1" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="#main">Home</a>
                 </li>
-                <li class="nav-item mx-sm-1">
-                  <a class="nav-link" href="#">About me</a>
+                <li class="nav-item mx-sm-1" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="#about_me">About me</a>
                 </li>
-                <li class="nav-item mx-sm-1">
-                  <a class="nav-link" href="#">Portfolio</a>
+                <li class="nav-item mx-sm-1" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item mx-sm-1">
-                  <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item mx-sm-1" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
               <button class="btn btn-outline-light my-2 my-sm-0 mx-lg-2" target="_blank">LinkedIn</button>
@@ -178,7 +178,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contact">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-xl-7 px-0">
