@@ -138,12 +138,29 @@ border-bottom:2px solid #1473e6;
   max-width: 180px;
 }
 
-#footer-linkedin, #footer-github, #footer-discord {
+#footer-linkedin, #footer-github {
     border: 1px #343a40 solid;
     border-radius: 50%;
     padding: 10px;
     font-size: 30px;
     text-decoration: none;
+}
+
+#footer-platzi {
+  border: 1px #343a40 solid;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 19.5px;
+  position: relative;
+  top: -6.5px;
+}
+
+#footer-platzi img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -1.5px;
 }
 
 @media (max-width: 576px) {
